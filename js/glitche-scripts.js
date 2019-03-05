@@ -108,7 +108,7 @@ $(function () {
 		},
 		success: "valid",
 		submitHandler: function() {
-			window.location.href = '/';
+			return true;
 		}
 	});
 	
