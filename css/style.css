@@ -1,0 +1,25 @@
+.resume-item ul{
+    list-style: circle;
+}
+
+.resume-item ul li{
+    margin-bottom: 15px;
+}
+
+.skills ul{
+    list-style: circle;
+}
+
+.durisimo_logo, .earnit_logo, .thewificonnect_logo, .archistar_logo{
+    background-color: #303f9f;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.help4loan_logo{
+    background-color: #d3e012;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+

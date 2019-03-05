@@ -74,7 +74,6 @@ body.loaded .section {
 /* 2. Container */
 .container {
   position: relative;
-  margin: 30px;
   overflow: hidden;
   background: #ffffff;
 }
