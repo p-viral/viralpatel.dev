@@ -3,10 +3,11 @@
 <head>
 	
 	<!-- Basic -->
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>Glitche - Contacts</title>
-	<meta name="description" content="">
-	<meta name="keywords" content="">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Viral Patel - Software Engineer - Content Writer - Technology Enthusiast - CV/Resume</title>
+	<meta name="description"
+		content="I am a software engineer with loads of enthusiasm with the curiosity of a begineer and patience of an experienced engineer. I mainly develop web apps and architect infrastructure for the web app.">
+	<meta name="keywords" content="Viral Patel, viral patel software engineer">
 	
 	<!-- Mobile Specific Metas -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -20,7 +21,7 @@
 	<link rel="stylesheet" href="css/ionicons.css" />
 	<link rel="stylesheet" href="css/magnific-popup.css" />
 	<link rel="stylesheet" href="css/animate.css" />
-	
+	<link ref="stylesheet" href="css/style.css" />
 	<!--[if lt IE 9]>
 	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
 	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -58,9 +59,8 @@
 				<div class="top-menu">
 					<ul>
 						<li><a href="resume.html" class="lnk">Resume</a></li>
-						<li><a href="portfolio.html" class="lnk">Portfolio</a></li>
-						<li><a href="blog.html" class="lnk">Blog</a></li>
-						<li class="active"><a href="contacts.html" class="btn">Contacts</a></li>
+						<!-- <li><a href="blog.html" class="lnk">Blog</a></li> -->
+						<li><a href="contacts.html" class="btn">Let's Connect</a></li>
 					</ul>
 				</div>
 			</div>
@@ -96,36 +96,37 @@
 							<div class="icon"><span class="ion ion-android-phone-portrait"></span></div>
 							<div class="name">Phone</div>
 							<p>
-								+ (231) 456 67 89
+								<a href="tel:+919408758653">+ (91) 9408 - 758653</a>								
 							</p>
 						</div>
 						<div class="service-item">
 							<div class="icon"><span class="ion ion-email"></span></div>
 							<div class="name">Email</div>
 							<p>
-								<a href="mailto:steve-pearson@gmail.com">steve-pearson@gmail.com</a>
+								<a href="mailto:v@viralpatel.dev">v@viralpatel.dev</a>
 							</p>
 						</div>
 						<div class="service-item">
 							<div class="icon"><span class="ion ion-ios-location"></span></div>
 							<div class="name">Address</div>
 							<p>
-								2621 W Pico Blvd, Los Angeles
+								Somewhere in Ahmedabad, Gujarat, India.
 							</p>
 						</div>
 					</div>
 					<div class="contact_form">
-						<form id="cform" method="post">
+						<form id="cform" action="/" method="post" data-netlify-recaptcha="true" data-netlify="true">
 							<div class="group-val">
 								<input type="text" name="name" placeholder="Name" />
 							</div>
 							<div class="group-val">
 								<input type="text" name="email" placeholder="Email" />
-							</div>
+							</div>							
 							<div class="group-val ct-gr">
 								<textarea name="message" placeholder="Message"></textarea>
 							</div>
-							<a href="#" class="btn fill" onclick="$('#cform').submit(); return false;" data-text="Send Message">Send Message</a>
+							<div data-netlify-recaptcha="true" class="mb-4"></div>
+							<a href="#" class="btn fill captch-submit-form" onclick="$('#cform').submit(); return false;" data-text="Send Message">Send Message</a>
 						</form>
 						<div class="alert-success">
 							<p>
@@ -141,12 +142,11 @@
 		<!-- Footer -->
 		<footer>
 			<div class="soc">
-				<a target="_blank" href="https://dribbble.com/"><span class="ion ion-social-dribbble"></span></a>
-				<a target="_blank" href="https://twitter.com/"><span class="ion ion-social-twitter"></span></a>
-				<a target="_blank" href="https://github.com/"><span class="ion ion-social-github"></span></a>
-				<a target="_blank" href="https://www.instagram.com/"><span class="ion ion-social-instagram-outline"></span></a>
+				<a target="_blank" href="https://twitter.com/patelviral_12"><span class="ion ion-social-twitter"></span></a>
+				<a target="_blank" href="https://github.com/p-viral"><span class="ion ion-social-github"></span></a>
+				<a target="_blank" href="https://www.linkedin.com/in/viral12/"><span class="ion ion-social-linkedin"></span></a>
 			</div>
-			<div class="copy">© 2016 Glitche. All rights reserved.</div>
+			<div class="copy">© 2019 Viral Patel. All rights reserved.</div>
 			<div class="clr"></div>
 		</footer>
 		

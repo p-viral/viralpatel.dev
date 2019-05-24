@@ -74,7 +74,6 @@ body.loaded .section {
 /* 2. Container */
 .container {
   position: relative;
-  margin: 30px;
   overflow: hidden;
   background: #ffffff;
 }
@@ -294,6 +293,11 @@ a.btn.fill,
   color: #ffffff;
   background: #303f9f;
   border: 1px solid #303f9f;
+}
+
+a.btn.fill,
+.btn.fill.captch-submit-form{
+  margin-top: 28px !important;
 }
 
 a.btn:hover,
